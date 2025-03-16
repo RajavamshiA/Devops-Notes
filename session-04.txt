@@ -68,3 +68,5 @@ sshd -t --> check config is correct or not
 
 key based authentication --> ramesh should generate his public key and private key...
 
+When we want to remove user along with his default group, add the user to his default group if we added to other group, then userdel. So now entire user and group will be deleted.
+
